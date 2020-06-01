@@ -20,7 +20,8 @@ CLK_PATH_DICT = {'creative_id': 'clk_list.pkl',
             'per_day_click': 'per_day_click.pkl',
             'kfold_te': 'kfold_te.pkl',
             'seq_statistic': 'seq_statistic.pkl',
-            'cross_feature': 'cross_feature.pkl'}
+            'cross_feature': 'cross_feature.pkl',
+            'tfidf_stack': 'tfidf_stack.pkl'}
 
 
 SUBMISSION_AGE_PATH = '/home/huangzc/competition/tencent/submission/submission_age.csv'
