@@ -38,6 +38,8 @@ CLK_PATH_DICT = {'creative_id': 'clk_list.pkl',
             'tfidf_industry': 'tfidf_industry.npz',
             'tfidf_time': 'tfidf_time.npz',
                  
+            'gensim_ad_id': 'gensim_ad_id_dict.js',
+                 
             'tfidf_stack_age': 'tfidf_stack_age.pkl',
             'tfidf_stack_gender': 'tfidf_stack_gender.pkl', 
                  
