@@ -1,15 +1,8 @@
-TRAIN_DIR = '/home/huangzc/competition/tencent/data/train_preliminary/'
-TEST_DIR = '/home/huangzc/competition/tencent/data/test/'
+TRAIN_DIR = '/home/baode/huangzc/tencent/data/train_preliminary/'
+TEST_DIR = '/home/baode/huangzc/tencent/data/test/'
 
 USER_LOG_PATH = 'grid_df_part1.pkl'
 AD_INFO_PATH = 'grid_df_part2.pkl'
-
-# CLK_LIST_CREATIVE_PATH = 'clk_list.pkl'
-# CLK_LIST_ADVERTISER_PATH = 'clk_list_advertiser.pkl'
-# CLK_LIST_AD_PATH = 'clk_list_ad.pkl'
-# CLK_LIST_PRODUCT_PATH = 'clk_list_product.pkl'
-# CLK_LIST_PRODUCT_CAT_PATH = 'clk_list_product_cat.pkl'
-# CLK_LIST_INDUSTRY_PATH = 'clk_list_industry.pkl'
 
 CLK_PATH_DICT = {'creative_id': 'clk_list.pkl',
             'advertiser_id': 'clk_list_advertiser.pkl',
@@ -49,5 +42,5 @@ CLK_PATH_DICT = {'creative_id': 'clk_list.pkl',
             'gensim_ad_dict': 'gensim_dict.npy'}
 
 
-SUBMISSION_AGE_PATH = '/home/huangzc/competition/tencent/submission/submission_age.csv'
-SUBMISSION_GENDER_PATH = '/home/huangzc/competition/tencent/submission/submission_gender.csv'
+SUBMISSION_AGE_PATH = '/home/baode/huangzc/tencent/submission/submission_age.csv'
+SUBMISSION_GENDER_PATH = '/home/baode/huangzc/tencent/submission/submission_gender.csv'

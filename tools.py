@@ -4,7 +4,17 @@ import os
 import pandas as pd
 from multiprocessing import Pool 
 from IPython.display import display_html
+from joblib import Parallel, delayed
 
+### parallel process
+def process_parallel(dfs, func):
+    res = Parallel(n_jobs=-1)(delayed(func)(df) for df in dfs)
+    return pd.concat(res, axis=0)
+    
+### apply parallel
+def apply_parallel(df_grouped, func):
+    res = Parallel(n_jobs=-1)(delayed(func)(group) for name, group in df_grouped)
+    return pd.concat(res, axis=0)
 
 ### multiprocessing
 def get_clk_times_list(df):
